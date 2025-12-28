@@ -5,9 +5,9 @@ import chess
 import chess.engine
 
 # Config
-SERIAL_PORT = "/dev/ttyACM0"
+SERIAL_PORT = "/dev/cu.usbmodem101" # replace with your serial port
 BAUDRATE = 115200
-STOCKFISH_PATH = "/usr/bin/stockfish"
+STOCKFISH_PATH = "/path/to/stockfish" # replace with your path
 ENGINE_TIME_LIMIT = 1
 
 try:
